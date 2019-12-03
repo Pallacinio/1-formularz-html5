@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://formspree.io/mgevzanw" method="POST">
+
+        <label for="name">Imię:</label>
+        <input id="name" type="text" name="name"><br>
+
+        <label for="nazwisko">Nazwisko:</label>
+        <input id="nazwisko" type="text" name="nazwisko"><br>
+
+        <label for="mail">E-mail:</label>
+        <input id="mail" type="email" name="_replyto"><br>
+
+        <label for="phone">Telefon:</label>
+        <input id="phone" type="number" name="number"><br>
+
+        <label for="city">Wybór miasta:</label><br>
+        <input type="radio" name="city" value="Kraków"> Kraków<br>
+        <input id="city" type="radio" name="city" value="Warszawa" checked> Warszawa<br>
+        <input type="radio" name="city" value="Gdańsk"> Gdańsk <br>  
+        
+        <label for="zgoda">Zgoda na dane osobowe</label>
+        <input id="zgoda" type="checkbox"><br>
+
+        <textarea name="Komentarz" placeholder="Wiadomość"></textarea><br>
+        <input type="submit" value="Send">
+
+    </form>
+    
+    <!-- 
+- imię
+- nazwisko
+- mail
+- telefon
+- wybór miasta (Kraków, Warszawa, Gdańsk) - select
+- płeć - radio
+- zgoda na dane osobowe - checkbox
+- wiadomość - textarea 
+    -->
+</body>
+</html>
